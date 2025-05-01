@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>LOKU NIMA</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"/>
+
+  <style>
+
+    :root {
+
+      --bg-color: #000000;
+
+      --neon-green: #39ff14;
+
+      --neon-pink: #ff1493;
+
+      --neon-blue: #00ffff;
+
+      --font-main: 'Orbitron', sans-serif;
+
+    }
+
+
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+      font-family: var(--font-main);
+
+    }
+
+
+
+    /* MARK: BACKGROUND PHOTO HERE */
+
+    body {
+
+      background: url('https://files.catbox.moe/209ivo.jpg') no-repeat center center fixed;
+
+      background-size: cover;
+
+      color: white;
+
+      overflow-x: hidden;
+
+      cursor: crosshair;
+
+    }
+
+
+
+    .main-container {
+
+      max-width: 900px;
+
+      margin: 0 auto;
+
+      padding: 2rem;
+
+      text-align: center;
+
+    }
+
+
+
+    .cyber-header {
+
+      margin-bottom: 2rem;
+
+    }
+
+
+
+    .logo-img {
+
+      width: 150px;
+
+      border: 4px solid var(--neon-green);
+
+      border-radius: 50%;
+
+      box-shadow: 0 0 20px var(--neon-green);
+
+    }
+
+
+
+    h1 {
+
+      font-size: 2.5rem;
+
+      color: var(--neon-green);
+
+      text-shadow: 0 0 5px var(--neon-green), 0 0 10px var(--neon-green);
+
+    }
+
+
+
+    .button-grid {
+
+      display: grid;
+
+      gap: 1rem;
+
+      margin-top: 2rem;
+
+    }
+
+
+
+    .cyber-btn {
+
+      background-color: transparent;
+
+      border: 2px solid var(--neon-pink);
+
+      color: var(--neon-pink);
+
+      text-decoration: none;
+
+      font-size: 1.1rem;
+
+      padding: 1rem;
+
+      border-radius: 10px;
+
+      box-shadow: 0 0 10px var(--neon-pink);
+
+      transition: all 0.3s ease;
+
+      display: inline-block;
+
+    }
+
+
+
+    .cyber-btn:hover {
+
+      background-color: var(--neon-pink);
+
+      color: black;
+
+      transform: scale(1.05);
+
+    }
+
+
+
+    .cyber-footer {
+
+      margin-top: 3rem;
+
+      padding: 1rem;
+
+      text-align: center;
+
+      font-size: 0.9rem;
+
+      color: var(--neon-blue);
+
+      border-top: 1px solid var(--neon-blue);
+
+    }
+
+
+
+    .particle {
+
+      position: absolute;
+
+      width: 5px;
+
+      height: 5px;
+
+      background: var(--neon-blue);
+
+      border-radius: 50%;
+
+      pointer-events: none;
+
+      animation: fly 1s linear forwards;
+
+    }
+
+
+
+    @keyframes fly {
+
+      from {
+
+        opacity: 1;
+
+        transform: translateY(0px);
+
+      }
+
+      to {
+
+        opacity: 0;
+
+        transform: translateY(-20px);
+
+      }
+
+    }
+
+
+
+    @media screen and (max-width: 600px) {
+
+      h1 {
+
+        font-size: 2rem;
+
+      }
+
+
+
+      .logo-img {
+
+        width: 100px;
+
+      }
+
+
+
+      .cyber-btn {
+
+        font-size: 1rem;
+
+        padding: 0.8rem;
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <!-- Background Music -->
+
+  <audio autoplay loop>
+
+    <source src="https://files.catbox.moe/sm45ch.mp3" type="audio/mpeg">
+
+    Your browser does not support the audio element.
+
+  </audio>
+
+
+
+  <div class="main-container">
+
+    <header class="cyber-header">
+
+      <img src="https://files.catbox.moe/209ivo.jpg" alt="Loku Nima Logo" class="logo-img"/>
+
+      <h1>LOKU NIMA</h1>
+
+      <p style="color: var(--neon-green); font-size: 1.2rem;">Best Website For Sri Lanka</p>
+
+    </header>
+
+
+
+    <div class="button-grid">
+
+      <a href="https://wa.me/94769091078?text=*@_Hi_LOKU_NIMAH_BOT_DPLOY_ME_🚀🤖*" class="cyber-btn" target="_blank">
+
+        <i class="fas fa-user"></i> Contact Owner Nima
+
+      </a>
+
+      <a href="https://youtube.com/@nimayt-i7y?si=TtluneclffEAIcuz" class="cyber-btn" target="_blank">
+
+        <i class="fab fa-youtube"></i> Youtube Channel Nima
+
+      </a>
+
+      <a href="https://tiktok.com/@nimsara_sadaru0" class="cyber-btn" target="_blank">
+
+        <i class="fab fa-tiktok"></i> TikTok Link Nima
+
+      </a>
+
+      <a href="https://www.mediafire.com/file/ervtqzslkycgyu0/Network_Hacking_Course_2025_by_ABUZAR.zip/file" class="cyber-btn" target="_blank">
+
+        <i class="fas fa-network-wired"></i> Network Hacking Course
+
+      </a>
+
+      <a href="test.html" class="cyber-btn" target="_blank">
+
+        <i class="fas fa-robot"></i> BOT REPO SOON
+
+      </a>
+
+    </div>
+
+  </div>
+
+
+
+  <footer class="cyber-footer">
+
+    © <span id="year"></span> By Loku Nima
+
+  </footer>
+
+
+
+  <script>
+
+    // Particle effect
+
+    document.addEventListener('mousemove', (e) => {
+
+      const particles = document.createElement('div');
+
+      particles.className = 'particle';
+
+      particles.style.left = `${e.clientX}px`;
+
+      particles.style.top = `${e.clientY}px`;
+
+      document.body.appendChild(particles);
+
+      setTimeout(() => particles.remove(), 1000);
+
+    });
+
+
+
+    // Hover sound
+
+    const buttons = document.querySelectorAll('.cyber-btn');
+
+    const hoverSound = new Audio('https://files.catbox.moe/1ay04x.wav');
+
+    buttons.forEach(btn => {
+
+      btn.addEventListener('mouseenter', () => {
+
+        hoverSound.currentTime = 0;
+
+        hoverSound.play();
+
+      });
+
+    });
+
+
+
+    // Dynamic year
+
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+  </script>
+
+</body>
+
+</html>
