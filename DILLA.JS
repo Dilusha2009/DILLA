@@ -222,7 +222,7 @@
         </header>
 
         <div class="button-grid">
-            <a href="https://wa.me/94769249107" class="cyber-btn" target="_blank">
+            <a href="https://wa.me/94766414930" class="cyber-btn" target="_blank">
                 <i class="fas fa-user"></i>
                 Contact Owner
             </a>
